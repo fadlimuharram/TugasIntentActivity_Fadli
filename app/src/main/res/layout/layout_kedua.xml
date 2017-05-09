@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Nama : "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Nama"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/namanya"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="NPM : "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/npm"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/npmnya"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Alamat : "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/alamat"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/alamatnnya"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="NoTlpn : "
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/notlpn"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/notlpnnya"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:text="Edit Ini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editbtn"
+        android:onClick="KlikKeLayoutTiga"/>
+
+</LinearLayout>
